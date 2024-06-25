@@ -1,0 +1,65 @@
+form>label {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin-top: 24px;
+}
+
+form>label>input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+
+fieldset {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 18px;
+  width: 338px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  margin-bottom: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 368px;
+  height: 40px;
+  background: #4e75ff;
+  border: #4e75ff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+button:hover {
+  background: #6c8cff;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* form > label > input:hover {
+  border: 1px solid #000;
+} */
+form>label>input:focus {
+  border: 1px solid #4e75ff;
+}
